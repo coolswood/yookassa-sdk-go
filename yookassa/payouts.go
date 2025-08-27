@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	yooerror "github.com/rvinnie/yookassa-sdk-go/yookassa/errors"
-	yoopayout "github.com/rvinnie/yookassa-sdk-go/yookassa/payout"
+	yooerror "github.com/coolswood/yookassa-sdk-go/yookassa/errors"
+	yoopayout "github.com/coolswood/yookassa-sdk-go/yookassa/payout"
 )
 
 const (

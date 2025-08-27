@@ -2,7 +2,7 @@
 package yoorefund
 
 import (
-	"github.com/rvinnie/yookassa-sdk-go/yookassa/common"
+	"github.com/coolswood/yookassa-sdk-go/yookassa/common"
 	"time"
 )
 
