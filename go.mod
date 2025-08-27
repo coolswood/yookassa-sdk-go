@@ -1,7 +1,11 @@
-module github.com/rvinnie/yookassa-sdk-go
+module github.com/coolswood/yookassa-sdk-go
 
-go 1.19
+go 1.21
 
-require github.com/google/uuid v1.3.1
+require (
+	// тянем оригинал по его имени модуля
+	github.com/rvinnie/yookassa-sdk-go v1.3.1
+)
 
-replace github.com/rvinnie/yookassa-sdk-go/yookassa => github.com/coolswood/yookassa-sdk-go/yookassa v1.3.1-0
+// подменяем оригинал на ваш форк (версия — ваш тег или псевдо-версия по коммиту)
+replace github.com/rvinnie/yookassa-sdk-go => github.com/coolswood/yookassa-sdk-go v1.3.1
